@@ -1,0 +1,50 @@
+header{
+    width: 60%;
+    margin: 0 auto;
+}
+header h1{
+    text-align: center;
+    font-size: 3em;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+.container .buscador{
+    text-align: center;
+}
+.container .buscador label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.container .lugar{
+    text-align: left;
+}
+.container .lugar h2{
+    font-size: 2em;
+}
+.container .lugar ul{
+    list-style: none;
+    padding: 0 0;
+    line-height: 40px;
+}
+.container .lugar ul li{
+    margin-top: 10px;
+    padding-left: 1%;
+}
+.container .lugar ul .liloc{
+    border: 2px solid gray;
+}
+.container .lugar ul .limax{
+    border: 2px solid red;
+}
+.container .lugar ul .limin{
+    border: 2px solid lightblue;
+}
+.container .lugar ul .liact{
+    border: 2px solid lightgreen;
+}
