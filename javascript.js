@@ -6,7 +6,7 @@ $("input").keypress(function (e) {
 function clima(ciudad) {
     $.ajax({
         method: "GET",
-        url : `http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=95176c8edea30e33338e0eaddd53a916`,
+        url : `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=95176c8edea30e33338e0eaddd53a916`,
         success: function (data) {
             console.log(data);
             $(".geo").text(data.sys.country);
